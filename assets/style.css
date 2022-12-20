@@ -1,11 +1,32 @@
-.game-board {
+h1 {
+    font-size: xx-large;
+}
+
+#container {
     display: flex;
     justify-content: center;
-    width: 8em;
-    height: auto;
-    border: solid black 2px;
+}
+
+#board-game {
+    border: black solid 2px;
+    width: 50em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .square {
+    margin: .75em;
+    width: 15em;
+    height: 15em;
+}
 
+#reset {
+    display: flex;
+    justify-content: center;
+}
+
+#reset-button {
+    width:15em;
+    height: 5em
 }
