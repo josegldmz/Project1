@@ -1,10 +1,15 @@
 h1 {
-    font-size: xx-large;
+    font-size: 5em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 #container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 50em;
+    margin-left: 30em;
 }
 
 #board-game {
@@ -19,14 +24,19 @@ h1 {
     margin: .75em;
     width: 15em;
     height: 15em;
+    border-radius: 20px;
 }
 
 #reset {
     display: flex;
     justify-content: center;
+    margin: 4em;
 }
 
 #reset-button {
-    width:15em;
-    height: 5em
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 15em;
+    height: 5em;
+    border-radius: 20px;
 }
