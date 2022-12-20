@@ -8,7 +8,7 @@ h1 {
 }
 
 #board-game {
-    border: black solid 2px;
+    /* border: black solid 2px; */
     width: 50em;
     display: flex;
     flex-wrap: wrap;
