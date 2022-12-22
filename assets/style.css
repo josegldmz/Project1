@@ -25,6 +25,7 @@ h1 {
     width: 15em;
     height: 15em;
     border-radius: 20px;
+    border: solid black 6px;
 }
 
 #reset {
@@ -39,4 +40,5 @@ h1 {
     width: 15em;
     height: 5em;
     border-radius: 20px;
+    border: solid black 4px;
 }

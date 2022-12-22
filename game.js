@@ -13,5 +13,23 @@ let winOption = [
         [1,4,7],
         [2,5,8],
     ];
-    let playerX = true;
-    let turnCount = 0;
+let playerX = true;
+let turnCount = 0;
+
+// increase the number of turnCount so you can keep track of the number of turns
+for (let i = 0; i < turnCount; i++) {
+    turnCount.append(i);
+}
+
+// if the number of turnCount is 0 or even, playerX will be true and will make an X
+// if the number of turnCouunt is odd, playerX will be false and will make an O
+
+
+
+
+
+// const playerTurn = () => {
+//      let (i = 0, i < turnCount, i++) {
+//         turnCount = 
+//      }
+// }
