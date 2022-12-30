@@ -3,49 +3,43 @@ html {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 2em;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8px;
+}
+
+body {
+    height: 100vh;
+    font-size: 20px;
 }
 
 #container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 50em;
-    margin-left: 30em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    margin-top: 8px;
 }
-
+    
 #board-game {
-    /* border: black solid 2px; */
-    width: 50em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    width: 70vmin;
+    height: 70vmin;
+}   
+
 
 .square {
-    margin: .75em;
-    width: 15em;
-    height: 15em;
-    border-radius: 20px;
-    border: solid black 6px;
-    background-color: aquamarine;
-    font-size:
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 10px; 
+    margin: 2px;
 }
 
 #reset {
-    display: flex;
-    justify-content: center;
-    margin: 4em;
+
 }
 
+
 #reset-button {
-    background: lightsalmon;
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 15em;
-    height: 5em;
-    border-radius: 20px;
-    border: solid black 4px;
+   
 }

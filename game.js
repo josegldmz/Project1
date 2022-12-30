@@ -64,11 +64,5 @@ btnSelect.forEach((element) => {
     })
 })
 
-
-
-
-// const playerTurn = () => {
-//      let (i = 0, i < turnCount, i++) {
-//         turnCount = 
-//      }
-// }
+// add the function to hide the following page of win/draw to start a new game
+// research possible functions to hide/unhide a function(element)
