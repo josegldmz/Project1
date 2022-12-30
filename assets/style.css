@@ -1,3 +1,7 @@
+html {
+    background: lightseagreen
+}
+
 h1 {
     font-size: 5em;
     text-align: center;
@@ -26,6 +30,8 @@ h1 {
     height: 15em;
     border-radius: 20px;
     border: solid black 6px;
+    background-color: aquamarine;
+    font-size:
 }
 
 #reset {
@@ -35,6 +41,7 @@ h1 {
 }
 
 #reset-button {
+    background: lightsalmon;
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 15em;
